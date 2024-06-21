@@ -1,0 +1,55 @@
+.wrapper {
+    background: var(--bg-clr);
+}
+
+.bradecump {
+    padding: var(--pad);
+    margin-top: 70px;
+    border-bottom: 1px solid gray;
+}
+
+.bradecump p {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bradecump p:hover {
+    color: var(--main-clr);
+}
+
+.main {
+    margin-top: 20px;
+    padding: var(--pad);
+}
+
+.login-page {
+    width: 50%;
+    margin: 0px auto;
+    border-radius: 10px;
+    border: 1px solid var(--border-clr);
+    padding: 10px;
+}
+
+.login-page h1 {
+    font-size: 25px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.input-field{
+    width: 90%;
+    margin: 20px auto;
+}
+.input-field input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid var(--border-clr);
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.input-field input[type="button"]{
+   background: var(--main-clr);
+   cursor: pointer;
+   color: #fff;
+   /* font-size: 19px; */
+}

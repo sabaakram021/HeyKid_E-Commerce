@@ -1,0 +1,60 @@
+@media (width <= 768px){
+    .para-box{
+        width: 100%;
+        justify-content: flex-start;
+        gap: 20px;
+    }
+    .trending-header{
+        flex-direction: column;
+        justify-content: flex-start;
+        gap: 10px;
+    }
+    .product-box{
+        width: 100%;
+        
+    }
+    .dealoftheday-box{
+        width: 100%;
+    }
+    .dealoftheday-box-btn button{
+        padding: 8px;
+        font-size: 8px;
+    }
+    .offer-banner{
+        flex-direction: column;
+    }
+    .offer-bannner-box{
+        width: 100%;
+    }
+    .footer-info{
+        flex-direction: column;
+    }
+    .footerdiv{
+        width: 100%;
+        max-width: 100%;
+    }
+    .footer-left-img{
+        left: 0px;
+    }
+    .footer-right-img{
+        right: 0px;
+    }
+    .brand-img{
+        max-width: 92%!important;
+    }
+    .product-grid {
+        flex-direction: column;
+    }
+    .product-grid-left{
+        width: 100%;
+    }
+    .pro-info{
+        width: 100%;
+    }
+    .login-page{
+        width: 100%;
+    }
+    .cart-grid{
+        width: 100%;
+    }
+}

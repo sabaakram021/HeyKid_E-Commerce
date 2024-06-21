@@ -1,0 +1,58 @@
+
+.pop-up{
+    position: fixed;
+    top: 70px;
+    right: -100%;
+    opacity: 0;
+    z-index: 9999;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 1px 5px #00000034;
+    transition: all .4s ease-in-out;
+}
+
+.pop-up-active{
+    right: 20px;
+    opacity: 1;
+}
+.pop-up-layer{
+    position: relative;
+    padding:20px 10px;
+}
+.pop-cancel{
+    position: absolute;
+    top: -12.5px;
+    right: -12.5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background: var(--main-clr);
+    color: #fff;
+    box-shadow: 0px 1px 5px #00000034;
+    cursor: pointer;
+}
+.popuptick{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    color: #fff;
+    background: var(--main-clr);
+   
+}
+.popupticksuccess{
+    background: green;
+}
+.popuptickremove{
+    background: red;
+}
+.popuptickcancel{
+    background: red;
+}
+
+.pop-up-left{
+    margin-right: 10px;
+}
+.msg{
+    max-width: 200px;
+    text-wrap: wrap;
+}

@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-clr:#00BBAE;
+    --secondery-clr:#F88E0F;
+    --border-clr:#e8e6e6;
+    --bg-clr:#F9F9F9;
+    --pad:10px 20px;
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flex-col{
+    flex-direction: column;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.space-between{
+    justify-content: space-between;
+}
+.flex-start{
+    justify-content: flex-start;
+}
+.align-start{
+    align-items: flex-start;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.gap-2{
+    gap: 2px;
+}
+.gap-5{
+    gap: 5px;
+}
+.gap-10{
+    gap: 10px;
+}
+.gap-20{
+    gap: 20px;
+}
+.gap-30{
+    gap: 30px;
+}

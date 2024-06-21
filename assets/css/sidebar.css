@@ -1,0 +1,27 @@
+.sidebar {
+    position: fixed;
+    top: 70px;
+    width: 100%;
+    height: calc(100vh - 70px);
+    background: #fff;
+    z-index: 99;
+    border-top: 1px solid gray;
+    transition: all .4s ease-in-out;
+    opacity: 0;
+    left: -100%;
+}
+
+.sidebar-active {
+    opacity: 1;
+    left: 0;
+}
+
+.sidebar-content {
+    padding: var(--pad);
+}
+
+.sidebar-content p {
+    font-size: 15px;
+    cursor: pointer;
+    margin: 20px 0px;
+}

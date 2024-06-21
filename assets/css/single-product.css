@@ -1,0 +1,132 @@
+.wrapper{
+    background: var(--bg-clr);
+}
+
+.bradecump{
+    padding: var(--pad);
+    margin-top: 70px;
+    border-bottom: 1px solid gray;
+}
+.bradecump p{
+    font-size: 16px;
+    cursor: pointer;
+}
+.bradecump p:hover{
+  color: var(--main-clr);
+}
+.product-grid{
+    margin-top: 20px;
+    padding: var(--pad);
+}
+.product-grid-left{
+    width: 40%;
+    min-width: 40%;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 1px solid var(--border-clr);
+}
+.product-grid-left img{
+    width: 100%;
+}
+
+.single-product-rating{
+    margin: 10px 0px;
+}
+.single-product-rating p{
+    margin-left: 5px;
+}
+
+.share-product{
+    margin: 10px 0px;
+}
+.share-product p{
+   font-size: 15px;
+   color: #69778A;
+   font-weight: 600;
+}
+.shareicon{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #69778A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.single-product-price{
+    margin: 10px 0px ;
+}
+.single-product-price h1{
+    color: var(--main-clr);
+    font-size: 28px;
+}
+.short-desc{
+    margin: 10px 0px;
+}
+.short-desc p{
+    font-size: 16px;
+    color: #69778A;
+}
+.inc-dec{
+    padding: 5px;
+    font-size: 15px;
+    background: #fff;
+    border-radius: 5px;
+    border: 1px solid var(--border-clr);
+    height: 37px;
+}
+.inc-dec i ,.inc-dec p{
+    padding: 5px 5px;
+    cursor: pointer;
+}
+.inc-dec p{
+    padding: 5px 10px;
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+.addtocart button{
+    padding: 10px 24px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: var(--main-clr);
+    color: #fff;
+    font-size: 15px;
+    height: 37px;
+    cursor: pointer;
+}
+.addtocart button:hover{
+    background: var(--secondery-clr);
+}
+.singleproduct-wishlist{
+    width: 37px;
+    height: 37px;
+    border-radius: 5px;
+    border: 1px solid var(--border-clr);
+    background: #fff;
+    font-size: 15px;
+    cursor: pointer;
+}
+.single-pro-info{
+    padding: 10px;
+    border-radius: 5px;
+    background: #fff;
+    width: 100%;
+    margin: 10px 0px;
+}
+.pro-info{
+    width: 80%;
+    margin: 10px 0px;
+}
+.pro-info p{
+    font-size: 15px;
+}
+.pro-info p:nth-child(2){
+    color: #69778A;
+}
+
+.releted-product{
+    padding: var(--pad);
+}
+.releted-prod-grid{
+    margin-top: 20px;
+}

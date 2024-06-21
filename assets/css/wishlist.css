@@ -1,0 +1,23 @@
+.wrapper {
+    background: var(--bg-clr);
+}
+
+.bradecump {
+    padding: var(--pad);
+    margin-top: 70px;
+    border-bottom: 1px solid gray;
+}
+
+.bradecump p {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.bradecump p:hover {
+    color: var(--main-clr);
+}
+
+.main {
+    margin-top: 20px;
+    padding: var(--pad);
+}

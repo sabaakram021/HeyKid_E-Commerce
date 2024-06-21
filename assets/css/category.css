@@ -1,0 +1,38 @@
+.wrapper{
+    background: var(--bg-clr);
+}
+.bradecump{
+    padding: var(--pad);
+    margin-top: 70px;
+}
+.bradecump p{
+    font-size: 16px;
+    cursor: pointer;
+}
+.bradecump p:hover{
+  color: var(--main-clr);
+}
+.category-head{
+    margin: 10px 20px;
+    background: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 2px #00000035;
+}
+.category-head select{
+    padding: 5px 10px;
+    border: 1px solid var(--border-clr);
+    border-radius: 5px;
+}
+
+.category-grid{
+    padding: var(--pad);
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
