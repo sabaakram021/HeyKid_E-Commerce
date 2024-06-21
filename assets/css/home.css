@@ -35,9 +35,29 @@ nav {
     font-size: 17px;
 }
 
-.nav-icon:hover i {
+/* .nav-icon:hover i {
     scale: 1.1;
+} */
+
+.nav-icon:hover i{
+    animation: slide-up-down 0.5s forwards;
 }
+
+@keyframes slide-up-down {
+    0% {
+        transform: translateY(0);
+    }
+    25% {
+        transform: translateY(-100%);
+    }
+    26% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .menu-icon{
     transition: all .4s ease-in-out;
 }
